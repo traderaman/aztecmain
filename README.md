@@ -35,7 +35,6 @@ sudo ufw enable
 sudo ufw allow 40400
 sudo ufw allow 8080
 sudo ufw reload
-screen -S aztec
 ```
   🔺🔺--- Execute below given command to Start Your node & Dont forget to make changes in it-
 
