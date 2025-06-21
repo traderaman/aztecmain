@@ -33,7 +33,7 @@ source ~/.bashrc
 ```
 * Set the correct version for the testnet
 ```
-aztec-up latest
+screen -S aztec
 ```
 # Load your wallet with Sepolia Faucet 
 
