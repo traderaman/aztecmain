@@ -25,11 +25,16 @@ aztec-up latest
 ```
 # Load your wallet with Sepolia Faucet 
 ```
+sudo ufw allow 40400/tcp 
+sudo ufw allow 40400/udp
+sudo ufw enable
+sudo ufw status
 sudo ufw allow 22
 sudo ufw allow ssh
+sudo ufw enable
 sudo ufw allow 40400
 sudo ufw allow 8080
-sudo ufw enable
+sudo ufw reload
 screen -S aztec
 ```
   🔺🔺--- Execute below given command to Start Your node & Dont forget to make changes in it-
