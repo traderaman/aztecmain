@@ -28,11 +28,11 @@ sudo ufw reload
 
 ```
 bash -i <(curl -s https://install.aztec.network)
-echo 'export PATH="$HOME/.aztec/bin:$PATH"' >> ~/.bashrc
-source ~/.bashrc
 ```
 * Set the correct version for the testnet
 ```
+echo 'export PATH="$HOME/.aztec/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
 screen -S aztec
 ```
 # Load your wallet with Sepolia Faucet 
