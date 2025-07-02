@@ -42,8 +42,8 @@ screen -S aztec
 ```
 aztec start --node --archiver --sequencer \
   --network alpha-testnet \
-  --l1-rpc-urls http://38.143.58.54:8545 \
-  --l1-consensus-host-urls http://38.143.58.54:3500 \
+  --l1-rpc-urls SEPOLIA \
+  --l1-consensus-host-urls BEACON \
   --sequencer.validatorPrivateKey 0xYourPrivateKey \
   --sequencer.coinbase YourAddress \
   --p2p.p2pIp Your_ip
