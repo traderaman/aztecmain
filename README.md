@@ -115,23 +115,8 @@ while true; do
 done
 ```
 
- ------👇Save These Info/Data👇 ------
-
-Aztec Sequencer Node ( XXXXX dc)
+LOGS:
 ```
-• Ethereum sepolia rpc : 
-
-• Beacon_sepolia_RPC : 
-
-• PVT KEY : 
-
-• MM Public Address : 
-
-• IP ( cloud vps) : 
-
-• Block Number : 
-
-• Base64 encoded string : 
+tail -f $(ls -t $HOME/aztec_node_logs/aztec_sequencer_*.log | head -1)
 ```
------- 👆Save These Info/Data👆 ------
 
