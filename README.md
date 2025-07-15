@@ -33,7 +33,6 @@ bash -i <(curl -s https://install.aztec.network)
 ```
 echo 'export PATH="$HOME/.aztec/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc
-screen -S aztec
 ```
 # Load your wallet with Sepolia Faucet 
 
